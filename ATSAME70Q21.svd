@@ -27476,6 +27476,12 @@ Copyright (c) 2017 Microchip Technology Inc.
                      <bitOffset>28</bitOffset>
                      <bitWidth>1</bitWidth>
                   </field>
+                  <field>
+                     <name>PID62</name>
+                     <description>Peripheral Clock 62 Enable</description>
+                     <bitOffset>30</bitOffset>
+                     <bitWidth>1</bitWidth>
+                  </field>
                </fields>
             </register>
             <register>
@@ -27635,6 +27641,12 @@ Copyright (c) 2017 Microchip Technology Inc.
                      <bitOffset>28</bitOffset>
                      <bitWidth>1</bitWidth>
                   </field>
+                  <field>
+                     <name>PID62</name>
+                     <description>Peripheral Clock 62 Disable</description>
+                     <bitOffset>30</bitOffset>
+                     <bitWidth>1</bitWidth>
+                  </field>
                </fields>
             </register>
             <register>
@@ -27792,6 +27804,12 @@ Copyright (c) 2017 Microchip Technology Inc.
                      <name>PID60</name>
                      <description>Peripheral Clock 60 Status</description>
                      <bitOffset>28</bitOffset>
+                     <bitWidth>1</bitWidth>
+                  </field>
+                  <field>
+                     <name>PID62</name>
+                     <description>Peripheral Clock 62 Status</description>
+                     <bitOffset>30</bitOffset>
                      <bitWidth>1</bitWidth>
                   </field>
                </fields>
@@ -28719,6 +28737,12 @@ Copyright (c) 2017 Microchip Technology Inc.
                      <bitOffset>28</bitOffset>
                      <bitWidth>1</bitWidth>
                   </field>
+                  <field>
+                     <name>PID62</name>
+                     <description>Peripheral 62 SleepWalking Enable</description>
+                     <bitOffset>30</bitOffset>
+                     <bitWidth>1</bitWidth>
+                  </field>
                </fields>
             </register>
             <register>
@@ -28876,6 +28900,12 @@ Copyright (c) 2017 Microchip Technology Inc.
                      <name>PID60</name>
                      <description>Peripheral 60 SleepWalking Disable</description>
                      <bitOffset>28</bitOffset>
+                     <bitWidth>1</bitWidth>
+                  </field>
+                  <field>
+                     <name>PID62</name>
+                     <description>Peripheral 62 SleepWalking Disable</description>
+                     <bitOffset>30</bitOffset>
                      <bitWidth>1</bitWidth>
                   </field>
                </fields>
@@ -29037,6 +29067,12 @@ Copyright (c) 2017 Microchip Technology Inc.
                      <bitOffset>28</bitOffset>
                      <bitWidth>1</bitWidth>
                   </field>
+                  <field>
+                     <name>PID62</name>
+                     <description>Peripheral 62 SleepWalking Status</description>
+                     <bitOffset>30</bitOffset>
+                     <bitWidth>1</bitWidth>
+                  </field>
                </fields>
             </register>
             <register>
@@ -29194,6 +29230,12 @@ Copyright (c) 2017 Microchip Technology Inc.
                      <name>PID60</name>
                      <description>Peripheral 60 Activity Status</description>
                      <bitOffset>28</bitOffset>
+                     <bitWidth>1</bitWidth>
+                  </field>
+                  <field>
+                     <name>PID62</name>
+                     <description>Peripheral 62 Activity Status</description>
+                     <bitOffset>30</bitOffset>
                      <bitWidth>1</bitWidth>
                   </field>
                </fields>
