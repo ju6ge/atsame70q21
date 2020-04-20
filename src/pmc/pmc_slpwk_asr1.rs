@@ -50,6 +50,8 @@ pub type PID58_R = crate::R<bool, bool>;
 pub type PID59_R = crate::R<bool, bool>;
 #[doc = "Reader of field `PID60`"]
 pub type PID60_R = crate::R<bool, bool>;
+#[doc = "Reader of field `PID62`"]
+pub type PID62_R = crate::R<bool, bool>;
 impl R {
     #[doc = "Bit 0 - Peripheral 32 Activity Status"]
     #[inline(always)]
@@ -175,5 +177,10 @@ impl R {
     #[inline(always)]
     pub fn pid60(&self) -> PID60_R {
         PID60_R::new(((self.bits >> 28) & 0x01) != 0)
+    }
+    #[doc = "Bit 30 - Peripheral 62 Activity Status"]
+    #[inline(always)]
+    pub fn pid62(&self) -> PID62_R {
+        PID62_R::new(((self.bits >> 30) & 0x01) != 0)
     }
 }

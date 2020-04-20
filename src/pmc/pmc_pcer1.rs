@@ -558,6 +558,28 @@ impl<'a> PID60_W<'a> {
         self.w
     }
 }
+#[doc = "Write proxy for field `PID62`"]
+pub struct PID62_W<'a> {
+    w: &'a mut W,
+}
+impl<'a> PID62_W<'a> {
+    #[doc = r"Sets the field bit"]
+    #[inline(always)]
+    pub fn set_bit(self) -> &'a mut W {
+        self.bit(true)
+    }
+    #[doc = r"Clears the field bit"]
+    #[inline(always)]
+    pub fn clear_bit(self) -> &'a mut W {
+        self.bit(false)
+    }
+    #[doc = r"Writes raw bits to the field"]
+    #[inline(always)]
+    pub fn bit(self, value: bool) -> &'a mut W {
+        self.w.bits = (self.w.bits & !(0x01 << 30)) | (((value as u32) & 0x01) << 30);
+        self.w
+    }
+}
 impl W {
     #[doc = "Bit 0 - Peripheral Clock 32 Enable"]
     #[inline(always)]
@@ -683,5 +705,10 @@ impl W {
     #[inline(always)]
     pub fn pid60(&mut self) -> PID60_W {
         PID60_W { w: self }
+    }
+    #[doc = "Bit 30 - Peripheral Clock 62 Enable"]
+    #[inline(always)]
+    pub fn pid62(&mut self) -> PID62_W {
+        PID62_W { w: self }
     }
 }
